@@ -1,0 +1,77 @@
+body{
+  background-image: url(immagini/background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat}
+
+.background{
+  position: absolute;
+  height: 100px;
+  text-align: center;
+  background-color: grey;
+  opacity: 60%;
+  filter: alpha(opacity=60);
+  margin: auto;}
+
+.logo {display: block; margin left: auto;
+margin-right: auto;text-align: center;}
+#imm-logo{width: 300px;height: auto;}
+.presentazione{font-family: Arial, sans-serif;
+  font-size: 15px;
+  color:#00dd00;
+  text-align: center;
+}
+.navigazione{
+  display: block;
+  text-align: center;
+  background-color:#00dd00;
+  padding:5px;
+  width: 80%;
+  margin:auto;
+margin-bottom: 20px}
+.button {
+  background-color: white;
+  border: blak;
+  border-radius: 5px;
+  color: black;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+main{
+
+  width: 80%;
+  margin-left:10%;
+  margin-right: 10%
+}
+.tipo-monopattino{
+  display:inline-block;
+  width: 80%;
+  margin-left:auto ;
+margin-right: auto;
+margin-bottom: 30px;
+color:white;
+}
+.nome-monopattino{
+  display:inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 20px}
+  .dove:before{
+  content: " \27FC ";
+  }
+  .dove:after{
+    content: "-"
+  }
+
+#Gino77{
+  border-radius: 5px;
+  background-color: pink;}
+#Mike27{
+  border-radius: 5px;
+  width: 300px;
+  background-color: Yellow}
+#Fede54{
+  border-radius: 5px;
+  width: 250px;
+  background-color: orange}
