@@ -4,9 +4,10 @@ body{
   background-repeat: no-repeat}
 
 .background{
-  position: absolute;
+  width:100px;
   height: 100px;
   text-align: center;
+  margin:auto;
   background-color: grey;
   opacity: 60%;
   filter: alpha(opacity=60);
