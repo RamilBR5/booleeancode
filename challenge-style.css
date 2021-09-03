@@ -3,32 +3,49 @@ body{
   background-size: 100%;
   background-repeat: no-repeat}
 
-.background{
-  width:100px;
-  height: 100px;
+.background {
+position: absolute;
+z-index: 1;
+width: 80%;
+height: 90%;
+background-color: black;
+opacity: 50%;
+filter: alpha(opacity=90);
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 2em;
+border-radius: 15px;
+margin-bottom: 20px;
+}
+header{
+  z-index: 2;
+  width: 80%;
+  position: absolute;
+  display: block;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
   text-align: center;
-  margin:auto;
-  background-color: grey;
-  opacity: 60%;
-  filter: alpha(opacity=60);
-  margin: auto;}
 
-.logo {display: block; margin left: auto;
-margin-right: auto;text-align: center;}
+  }
 #imm-logo{width: 300px;height: auto;}
-.presentazione{font-family: Arial, sans-serif;
+.presentazione{
+  font-family: Arial, sans-serif;
   font-size: 15px;
   color:#00dd00;
   text-align: center;
 }
 .navigazione{
-  display: block;
   text-align: center;
   background-color:#00dd00;
-  padding:5px;
   width: 80%;
-  margin:auto;
-margin-bottom: 20px}
+  height: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
 .button {
   background-color: white;
   border: blak;
@@ -37,42 +54,51 @@ margin-bottom: 20px}
   padding: 5px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
 }
-main{
-
-  width: 80%;
-  margin-left:10%;
-  margin-right: 10%
+main {
+  z-index: 2;
+  position: absolute;
+  width: 60%;
+  height: auto;
+  margin-right: 20%;
+  margin-top:350px;
 }
 .tipo-monopattino{
-  display:inline-block;
-  width: 80%;
-  margin-left:auto ;
-margin-right: auto;
-margin-bottom: 30px;
-color:white;
+
+ width: 80%
+ margin-left: 10%;
+ margin-right: 10%;
+ margin-top: 10px;
+ color:white;
 }
 .nome-monopattino{
-  display:inline-block;
   font-family: Arial, sans-serif;
-  font-size: 20px}
+  font-size: 20px;
+ }
   .dove:before{
-  content: " \27FC ";
+  content: " \27FC  ";
   }
   .dove:after{
-    content: "-"
+    content: " - "
   }
-
 #Gino77{
-  border-radius: 5px;
-  background-color: pink;}
+width:100px;
+height: 1.5em;
+border-radius: 5px;
+background-color: red;
+border-color: black;
+border-width:medium;
+}
 #Mike27{
-  border-radius: 5px;
-  width: 300px;
-  background-color: Yellow}
+height: 1.5em;
+border-radius: 5px;
+width: 300px;
+background-color: Yellow;
+}
 #Fede54{
-  border-radius: 5px;
-  width: 250px;
-  background-color: orange}
+height: 1.5em;
+border-radius: 5px;
+width: 250px;
+background-color: orange;
+}
