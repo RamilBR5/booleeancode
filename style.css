@@ -1,0 +1,111 @@
+body{
+  background-image: url(immagini2/background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+}
+.box{position: relative;
+  width: 60%;
+  height: 700px;
+  background-color: black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 10%;
+  border-radius: 10px;
+  z-index: 1;
+}
+.box1{
+  position: absolute;
+  width:80%;
+  height: 800px;
+  margin-left: 10%;
+  margin-top: 30px;
+  z-index: 2;
+}
+
+
+
+.Logo{
+  opacity: 1;
+  margin-top: 20px;
+  width:500px;
+  margin:auto;
+  text-align: center;
+}
+.imm-logo{
+  width:200px;
+  margin:auto;
+}
+.title{
+  font-size: 30px;
+  font-family: Arial;
+  color: #00ff00;
+  border: black;
+}
+.Bottoni{
+  width:60%;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  background-color: #00ff00;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+.button{
+  width: 150px;
+ height: 25px;
+
+}
+.Monopattini{
+  margin-top: 25px;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+
+}
+section{margin-top: 15px;}
+.Monopattino{
+  margin-top: 20px;
+  display: inline-block;
+  font-family: Arial;
+}
+.Via{margin-top:5px;
+margin-bottom: 5px;}
+.dove{
+  font-family: Arial;
+  font-size: 12px;
+}
+.dove:before{
+  content:"\21A6";
+}
+.dove:after{
+  content: " - ";
+}
+.dove1{
+  font-family: Arial;
+  font-size: 12px;
+}
+.Stato{
+  font-family: Arial;
+}
+#carica {
+  width: 200px;
+  height: 1.5em;
+  background-color: orange;
+  border-radius: 5px;
+}
+#carica2 {
+  width: 300px;
+  height: 1.5em;
+  background-color:#3bd63b ;
+  border-radius: 5px;
+}
+  #carica3 {
+    width: 80px;
+    height: 1.5em;
+    background-color: red;
+    border-radius: 5px;
+  }
