@@ -66,14 +66,18 @@ body{
   margin-top: 20px;
 
 }
-section{margin-top: 15px;}
+section{
+  margin-top: 15px;
+}
+
 .Monopattino{
   margin-top: 20px;
   display: inline-block;
   font-family: Arial;
 }
-.Via{margin-top:5px;
-margin-bottom: 5px;}
+.Via{
+  margin-top:5px;
+  margin-bottom: 5px;}
 .dove{
   font-family: Arial;
   font-size: 12px;
